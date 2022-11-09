@@ -2,8 +2,8 @@
 	//设置时区
 	date_default_timezone_set('PRC');
 	//读取内容
-	@$string=file_get_contents('message.txt');
-	//如果$string不为空的时候执行，也就是message.txt中有留言数据
+	@$string=file_get_contents('xiaoxi.txt');
+	//如果$string不为空的时候执行，也就是xiaoxi.txt中有留言数据
 	if(!empty($string)){
 		//每一段留言有一个分隔符，但是最后多出了一个&^。因此，我们需要将$^删掉
 		$string=rtrim($string,'&^');
