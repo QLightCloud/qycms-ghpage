@@ -24,7 +24,7 @@
 	<title>留言板</title>
 </head>
 <body>
-	<h1>基于文件的留言本演示</h1>
+	<h1>简易留言板</h1>
 	<form action="write.php" method="post">
 		用户名：<input type="text" name="username"><br/>
 		留言内容：<br/><textarea name="content"></textarea><br/>
