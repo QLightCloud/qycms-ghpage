@@ -1,6 +1,6 @@
 <?php
 	//追加方式打开文件
-	$fp=fopen('message.txt','a');
+	$fp=fopen('xiaoxi.txt','a');
 	//设置时间
 	$time=time();
 	//得到用户名
