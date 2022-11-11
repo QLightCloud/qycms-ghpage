@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <!-- saved from url=(0014)about:internet -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -132,48 +130,29 @@
       </div>
     </div>
     <div class="results-panel"></div>
-    </div><div class="sidebar-nav"><ul><li><p>系统介绍</p><ul><li><a href="https://cms.qingyun.plus/" title="关于">关于</a></li></ul></li><li><p>快速开始</p><ul><li><a href="https://cms.qingyun.plus/az.html" title="安装运行">安装运行</a></li><li><a href="https://cms.qingyun.plus/ml.html" title="目录结构">目录结构</a></li></ul></li><li><p>访问官网：CMS.QINGYUN.PLUS</p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><h1 id="安装运行"><a href="#" data-id="安装运行" class="anchor"><span>安装运行</span></a></h1>
-<pre v-pre="" data-lang=""><code class="lang-">01.   │─admin //后台管理目录 
-02.   │  │─coplugins //已停用目录 
-03.   │  │─ebak //帝国备份王数据备份
-04.   │  │─editor //编辑器 
-05.   │  │─img //后台静态文件 
-06.   │  │─js //后台js文件 
-07.   │  │─templets //后台模板文件 
-08.   │─article  //文章内容页 
-09.   │─articlelist //文章列表页 
-10.   │─comment //评论 
-11.   │  │─api //评论接口文件 
-12.   │  │─images //评论静态文件 
-13.   │  │─js //评论js文件 
-14.   │─data //配置数据及缓存文件 
-15.   │  │─admin //后台配置保存 
-16.   │  │─cache //缓存 
-17.   │  │─mark //水印 
-18.   │  │─sessions //sessions文件 
-19.   │─detail //视频内容页 
-20.   │─include //核心文件 
-21.   │  │─crons //定时任务配置 
-22.   │  │─data //静态文件 
-23.   │  │─inc //扩展文件 
-24.   │  │─webscan //360安全监测模块 
-25.   │─install //安装模块 
-26.   │  │─images //安装模块静态文件
-27.   │  │─templates //安装模块模板 
-28.   │─js //js文件 
-29.   │  │─ads //默认广告目录 
-30.   │  │─player //播放器目录 
-31.   │─list //视频列表页
-32.   │─news //文章首页
-33.   │─pic //静态文件 
-34.   │  │─faces //表情图像 
-35.   │  │─member //会员模块界面 
-36.   │  │─slide //旧版Flash幻灯片
-37.   │  │─zt //专题静态文件 
-38.   │─templets //模板目录 
-39.   │─topic //专题内容页 
-40.   │─topiclist //专题列表页 
-41.   │─uploads //上传文件目录 
-42.   │─video //视频播放页 
-43.   │─weixin //微信接口目录 
-44.   └─index.php //首页文件</code></pre></article></section></main><div class="progress" style="opacity: 0; width: 0%;"></div></body></html>
+    </div><div class="sidebar-nav"><ul><li><p>系统介绍</p><ul><li><a href="https://cms.qingyun.plus/" title="关于">关于</a></li></ul></li><li><p>快速开始</p><ul><li><a href="https://cms.qingyun.plus/az.html" title="安装运行">安装运行</a></li><li><a href="https://cms.qingyun.plus/ml.html" title="目录结构">目录结构</a></li></ul></li><li><p>访问官网：CMS.QINGYUN.PLUS</p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><h1 id="目录结构"><a href="#" data-id="目录结构" class="anchor"><span>目录结构</span></a></h1>
+<pre v-pre="" data-lang=""><code class="lang-">
+01.   │─admin //后台管理目录
+02.   │  │─home.php //后台修改首页
+03.   │  │─homef.php //后台修改首页时的post
+04.   │  │─index.php //后台首页
+05.   │  │─wzy.php //后台修改文章页
+06.   │  │─wzyf.php //后台修改文章页时的post
+07.   │  │─zdy.php //后台修改自定义页
+08.   │  │─zdyf.php //后台修改自定义页时的post
+09.   │─index //数据目录
+10.   │  │─txt //TXT数据存储
+11.   │  │  │─home.txt //首页数据文件
+12.   │  │  │─index.php //防止Apache目录展示
+13.   │  │  │─wz.txt //文章数据文件
+14.   │  │  │─zdy.txt //自定义数据文件
+15.   │  │─index.php //防止Apache目录展示
+16.   │─templeatea //模板目录，需手动更换
+17.   │  │─bt //基于宝塔新站点的模板文件
+18.   │  │  │─index.php //首页模板
+19.   │  │  │─wzy.php //文章页模板
+20.   │  │  │─zdy.php //自定义页面模板
+21.   │─index.php //首页文件
+22.   │─zdy.php //自定义文件
+23.   └─wzy.php //文章页文件
+</code></pre></article></section></main><div class="progress" style="opacity: 0; width: 0%;"></div></body></html>
